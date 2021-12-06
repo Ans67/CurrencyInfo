@@ -7,8 +7,6 @@
 
 import Foundation
 
-//{"id":"AED","name":"United Arab Emirates Dirham","min_size":"0.01000000"
-
 struct CurrencyModel: Codable, Equatable{
     let id : String?
     let name : String?
