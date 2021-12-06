@@ -21,6 +21,7 @@
 		13120A4D275E80BF007C41D8 /* ListViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13120A4B275E80BF007C41D8 /* ListViewTableCell.swift */; };
 		13120A4E275E80BF007C41D8 /* ListViewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13120A4C275E80BF007C41D8 /* ListViewTableCell.xib */; };
 		13120A50275E8233007C41D8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13120A4F275E8233007C41D8 /* ListViewController.swift */; };
+		13120A52275E8D68007C41D8 /* ResponsedataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13120A51275E8D67007C41D8 /* ResponsedataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		13120A4B275E80BF007C41D8 /* ListViewTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTableCell.swift; sourceTree = "<group>"; };
 		13120A4C275E80BF007C41D8 /* ListViewTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewTableCell.xib; sourceTree = "<group>"; };
 		13120A4F275E8233007C41D8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		13120A51275E8D67007C41D8 /* ResponsedataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsedataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				13120A3F275E4F82007C41D8 /* CurrencyModel.swift */,
+				13120A51275E8D67007C41D8 /* ResponsedataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				13120A45275E7F4A007C41D8 /* Networkmanger.swift in Sources */,
 				13120A0A275E43E4007C41D8 /* AppDelegate.swift in Sources */,
 				13120A40275E4F82007C41D8 /* CurrencyModel.swift in Sources */,
+				13120A52275E8D68007C41D8 /* ResponsedataModel.swift in Sources */,
 				13120A4D275E80BF007C41D8 /* ListViewTableCell.swift in Sources */,
 				13120A0C275E43E4007C41D8 /* SceneDelegate.swift in Sources */,
 				13120A50275E8233007C41D8 /* ListViewController.swift in Sources */,
