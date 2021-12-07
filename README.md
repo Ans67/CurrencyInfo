@@ -1,5 +1,5 @@
-# CurrencyInfo
+
 
 #MVVM Demo in swift
 
-Contry name with Currency code swift Demo using MVVM design pattern
+Currency name with Contry code demo in Swift using MVVM design pattern
