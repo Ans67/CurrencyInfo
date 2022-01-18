@@ -57,9 +57,6 @@ class NetworkManger{
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = method.rawValue
         
-       
-       // urlRequest.httpBody = data //try? JSONSerialization.data(withJSONObject: parameters)
-        
         if let headers = headers {
             urlRequest.allHTTPHeaderFields = headers
             //  urlRequest.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
@@ -78,3 +75,6 @@ class NetworkManger{
     }
 
 }
+
+
+// urlRequest.httpBody = data //try? JSONSerialization.data(withJSONObject: parameters)

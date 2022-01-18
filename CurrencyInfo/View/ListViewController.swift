@@ -15,7 +15,6 @@ class ListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         //UI Implementation
         configureUI()
         
@@ -26,7 +25,6 @@ class ListViewController: UIViewController {
     // MARK: - UI Configuration
     func configureUI(){
         self.Listtableview.register(UINib(nibName: "ListViewTableCell", bundle: Bundle.main), forCellReuseIdentifier: "ListViewTableCell")
-        
     }
     
     // MARK: - HTTP HEADER
@@ -41,9 +39,8 @@ class ListViewController: UIViewController {
     
     //MARK: - Get Currency List via API Call
     func callAPI(){
-        let url = "https://api.coinbase.com/v2/currencies"
-        
-        NetworkManger.sharedInstance.sendRequest(for: DataModel.self, url: url, method: .get, headers: headerforwebservice()) { (response) in
+    
+        NetworkManger.sharedInstance.sendRequest(for: DataModel.self, url: apiurl, method: .get, headers: headerforwebservice()) { (response) in
             
             switch response{
             

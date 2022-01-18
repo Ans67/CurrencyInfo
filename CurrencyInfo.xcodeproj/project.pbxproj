@@ -22,6 +22,7 @@
 		13120A4E275E80BF007C41D8 /* ListViewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13120A4C275E80BF007C41D8 /* ListViewTableCell.xib */; };
 		13120A50275E8233007C41D8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13120A4F275E8233007C41D8 /* ListViewController.swift */; };
 		13120A52275E8D68007C41D8 /* ResponsedataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13120A51275E8D67007C41D8 /* ResponsedataModel.swift */; };
+		1339F91427956CCA000499B9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1339F91327956CCA000499B9 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		13120A4C275E80BF007C41D8 /* ListViewTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewTableCell.xib; sourceTree = "<group>"; };
 		13120A4F275E8233007C41D8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		13120A51275E8D67007C41D8 /* ResponsedataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsedataModel.swift; sourceTree = "<group>"; };
+		1339F91327956CCA000499B9 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				13120A44275E7F4A007C41D8 /* Networkmanger.swift */,
+				1339F91327956CCA000499B9 /* Constant.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			files = (
 				13120A42275E6650007C41D8 /* CurrencyViewModel.swift in Sources */,
 				13120A45275E7F4A007C41D8 /* Networkmanger.swift in Sources */,
+				1339F91427956CCA000499B9 /* Constant.swift in Sources */,
 				13120A0A275E43E4007C41D8 /* AppDelegate.swift in Sources */,
 				13120A40275E4F82007C41D8 /* CurrencyModel.swift in Sources */,
 				13120A52275E8D68007C41D8 /* ResponsedataModel.swift in Sources */,
